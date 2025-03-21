@@ -138,8 +138,7 @@ li {
 
 /* About Section */
 
-.about
-{
+.about {
   background-color: #23242b;
   display: flex;
   justify-content: center;
@@ -149,28 +148,24 @@ li {
   gap: 300px;
 }
 
-.about h2
-{
+.about h2 {
   font-size: 50px;
   color: #8e8e8e;
 }
 
-.about .about-container
-{
+.about .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
   flex-wrap: wrap;
 }
-.about-container img 
-{
+.about-container img {
   height: 80px;
   width: 80px;
 }
 
-.about .about-container .about-card
-{
+.about .about-container .about-card {
   width: 300px;
   display: flex;
   justify-content: center;
@@ -179,18 +174,15 @@ li {
   gap: 40px;
 }
 
-.about .about-container .about-card h3
-{
+.about .about-container .about-card h3 {
   font-size: 15px;
   color: white;
   font-weight: 400;
 }
-.about .about-container .about-card p
-{
+.about .about-container .about-card p {
   font-size: 13px;
-  color: #717A87;
+  color: #717a87;
   text-align: center;
-
 }
 
 @media (max-width: 600px) {
@@ -198,5 +190,40 @@ li {
     padding: 100px 0;
     gap: 50px;
   }
-  
+}
+/* Services Section */
+
+
+.services {
+  background-color: #23242b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px 0;
+  gap: 300px;
+}
+.services h2 {
+  font-size: 50px;
+  color: #8e8e8e;
+}
+
+.services .services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.services-container img {
+  height: 300px;
+  width: 300px;
+}
+.services .services-container .services-card {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
