@@ -8,6 +8,8 @@ h1, h2, h3 , h4, h5 ,h6 ,p, a ,li , button, span
 {
   font-family: "Oswald", sans-serif;
 }
+
+/* NAVBAR */
 a
 {
   text-decoration: none;
@@ -86,5 +88,65 @@ li
 }
 
 /* HERO SECTION */
+
+.hero 
+{
+  height: 90vh;
+  background-image: url(/project1/Assets/BGG.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+}
+.hero .content
+{
+  height: 265;
+  width: 605;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.hero .content h3
+{
+  color: blue;
+  font-size: 30px;
+}
+.hero .content h1
+{
+  font-size: 60px;
+  color: blueviolet;
+}
+@media(max-width:700px)
+{
+  .hero{
+    background-position: right;
+    justify-content: center;
+    padding-right: 0;
+    padding: 0 20px;
+
+  }
+  .hero .content
+  {
+    width: 405px;
+    height: 265px;
+    padding: 0 20px;
+    gap: 20px;
+  }
+  .hero .content h3 
+  {
+    font-size: 20px;
+  }
+  .hero .content h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+
 
 
