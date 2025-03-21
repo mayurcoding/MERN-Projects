@@ -116,7 +116,7 @@ li {
 }
 @media (max-width: 700px) {
   .hero {
-    background-position: right;
+    background-position: left;
     justify-content: center;
     padding-right: 0;
     padding: 0 20px;
@@ -134,4 +134,69 @@ li {
     font-size: 40px;
     line-height: 40px;
   }
+}
+
+/* About Section */
+
+.about
+{
+  background-color: #23242b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px 0;
+  gap: 300px;
+}
+
+.about h2
+{
+  font-size: 50px;
+  color: #8e8e8e;
+}
+
+.about .about-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.about-container img 
+{
+  height: 80px;
+  width: 80px;
+}
+
+.about .about-container .about-card
+{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about .about-container .about-card h3
+{
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+.about .about-container .about-card p
+{
+  font-size: 13px;
+  color: #717A87;
+  text-align: center;
+
+}
+
+@media (max-width: 600px) {
+  .about {
+    padding 100px 0;
+    gap: 50px;
+  }
+  
 }
